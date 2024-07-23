@@ -1,0 +1,117 @@
+
+body {
+  background-color: #177500be; 
+  color: #3f0505;
+  font-family: 'sans-serif;
+
+}
+
+.container {
+  padding: 20px;
+  margin: auto;
+  max-width: 1300px;
+  background-color: #00ff15; 
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 3em;
+  color: #000000; 
+  letter-spacing: 1.2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, .MuiInputBase-root {
+  margin-bottom: 15px;
+  background-color: #ffffff; 
+  color: #f0f0f0; 
+  border: 1px solid #ffffff; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus, select:focus, .MuiInputBase-root.Mui-focused {
+  border-color: #000000; 
+  background-color: #ffffff; 
+}
+
+input::placeholder {
+  color: #888888; 
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+button, .MuiButton-root {
+  background-color: #000000; 
+  color: #1e1e1e; 
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, .MuiButton-root:hover {
+  background-color: #000000; 
+}
+
+button:disabled, .MuiButton-root:disabled {
+  background-color: #555555; 
+  cursor: not-allowed;
+}
+
+button:active, .MuiButton-root:active {
+  transform: scale(0.95);
+}
+
+/* Table Styles */
+.MuiTableContainer-root {
+  background-color: #ffffff; 
+  border-radius: 10px;
+}
+
+.MuiTableHead-root {
+  background-color: #15ff00; 
+}
+
+.MuiTableCell-head {
+  color: #f0f0f0; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.MuiTableCell-body {
+  color: #f0f0f0; 
+}
+
+.MuiTableRow-root:nth-of-type(even) {
+  background-color: #dbabab; 
+}
+
+.MuiButton-root {
+  margin-right: 8px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark gray */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Light blue */
+  border-radius: 20px;
+}
